@@ -1,0 +1,22 @@
+:root {
+  --ff: sans-serif;
+  --fs: 16px;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--ff);
+  font-size: var(--fs);
+  line-height: 1.15;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: inherit;
+  margin: 0;
+}
